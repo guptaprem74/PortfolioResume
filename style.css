@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/*-----Body Header-----*/
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images\\macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/*---Horizontal List---*/
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+/* Name of Social Icon */
+
+#name-social-container{
+    margin: 20vh;
+}
+
+#my-name{
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a img {
+    width: 1rem;
+    padding: 8px;
+}
+
+/*---section classes---*/
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: #9e9b9b29;
+
+}
+
+section:nth-child( 2n + 1){
+    background-color: white;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+/*-- About Section ---*/
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image{
+    height: 20rem;
+    width: 19rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgray;
+
+}
+
+
+#about-para{
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: gray;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+
+}
+
+/* Skills Section */
+
+.skills-display {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-progress {
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+.skill-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.skill-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    vertical-align: middle;
+    
+}
+
+
+/* common margin classes */
+
+.mb75px{
+    margin-bottom: 75px;
+}
+
+/* common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+/* setting Background color */
+
+.mb-blue{
+    background-color: #2857a4;
+}
+
+.mb-green{
+    background-color: #00b300;
+}
+
+.mb-red{
+    background-color: #e60000;
+}
+
+.mb-light-purple{
+    background-color: #93738c;
+}
+
+.mb-light-green{
+    background-color: #00b300;
+}
+
+.mb-dark-purple{
+    background-color: #500d85;
+}
+
+/* Percentage classes */
+
+.eighty-five-percent{
+    height: inherit;
+    width: 85%;
+}
+
+.sixty-five{
+    height: inherit;
+    width: 65%;
+    
+}
+
+.ninety{
+    height: inherit;
+    width: 90%;
+}
+
+.eighty-five{
+    height: inherit;
+    width: 85%;
+}
+
+.sixty-eight{
+    height: inherit;
+    width: 68%;
+}
+
+.sixty-three{
+    height: inherit;
+    width: 63%;
+}
+
+
+
+
+
+
